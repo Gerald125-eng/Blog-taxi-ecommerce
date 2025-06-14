@@ -1382,7 +1382,7 @@ nav{
       position: absolute;
       display: none;
       top: 210px;
-      left: 30px;
+      left: 50px;
       
 }
 
@@ -1394,14 +1394,14 @@ nav{
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         position: absolute;
         top: 160px;
-        left: 20px;
+        left: 40px;
         
     }
 
         .container_content_image_area_icon{
         position: absolute;
         top: 500px;
-        left: 50px;
+        left: 80px;
         display: flex;
         gap: 8px;
         background: white;
