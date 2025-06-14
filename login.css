@@ -473,7 +473,7 @@ button:hover{
     }
     .register{
     display: flex;
-    gap: 240px;
+    gap: 20px;
 }
 }
 @media (min-width : 768px) and  (max-width: 1024px){
