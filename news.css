@@ -385,6 +385,7 @@ nav{
 }
 
 .Details{
+    width: 100%;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -479,13 +480,14 @@ nav{
 
     .Details{
         flex-wrap: wrap;
+        width: 100%;
         height: fit-content;
         margin-top: 30px;
         justify-content: center;
         align-items: center;
     }
     .image_details img{
-        width: 320px;
+        width: 300px;
         height: 350px;
     }
 
@@ -495,26 +497,27 @@ nav{
      height: 70px;
      color: none;
      background: none;
-    text-align: center;
+    /* text-align: center; */
     background:yellow;
     font-size: 20px;
     }
 
     .search_area img{
     position: absolute;
-    top: 15px;
-    left: 280px;
+    width: 20px;
+    top: 25px;
+    left: 230px;
     }
 
 
     .Latest_Posts_image{
-    width: 300px;
+    width: 240px;
     height: 100px;
     background: #f2efef;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    gap: 50px;
+    gap: 15px;
     margin-left: 38px;
     align-items: center;
     margin-top: 20px;
@@ -524,7 +527,7 @@ nav{
 
     .Latest_Posts{
         margin-top: 20px;
-        width: 380px;
+        width: 320px;
         height: 500px;
         margin-left: 5px;
         background: #000;
@@ -565,12 +568,18 @@ nav{
     overflow: hidden;
     box-shadow: -1px 5px 15px;
     position: relative;
-}
+    }
 
-.image_details img{
-    width: 300px;
-    height: 360px;
-}
+    .image_details img{
+        width: 300px;
+        height: 360px;
+    }
+    .Latest_Posts_icon h4{
+        font-size: 12px;
+    }
+    .Admin_icon_image img{
+         width: 15px;
+    }
 }
 
 
@@ -677,13 +686,13 @@ nav{
         height: fit-content;
         justify-content: center;
         align-items: center;
-        padding: 20px 20px;
+        padding: 0px 50px;
     }
     .Delivering h1{
         font-size: 30px;
     }
     .Delivering p{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .admin_image img{
@@ -837,6 +846,14 @@ nav{
         align-items: center;
        }
 
+       .Tags_text a{
+        padding: 8px 20px;;
+        background: #000;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        }
+
        ._Comments{
         flex-direction: column;
         height: fit-content;
@@ -847,6 +864,10 @@ nav{
        }
        .text_area p{
           font-size: 10px;
+       }
+
+       .Tags_text{
+        gap: 10px;
        }
 
        
@@ -883,7 +904,28 @@ nav{
         .Book_button h2{
             font-size: 18px;
         }
+         .container_div{
+        width: 300px;
+        background: rgb(239, 239, 156);
+        height: 160px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+        .container_di{
+        width: 300px;
+        background: rgb(239, 239, 156);
+        height: 160px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
 }
+
+
+
 
 
 
