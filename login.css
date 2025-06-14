@@ -465,6 +465,7 @@ button:hover{
     .Register {
         color: #000;
         margin-left: 50px;
+        gap: 10px;
     }
 
     .Forgotten{
